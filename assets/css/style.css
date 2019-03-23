@@ -1,0 +1,178 @@
+.container {
+     background-color: white;
+        height: 400px;
+        font-family: 'Georgia', Times, Times, serif;
+        width: 920px;
+        border: solid;
+        margin: auto;
+        overflow:auto;
+        margin-top:100px;
+        padding:20px;
+}
+.header{
+    width: 100%;
+    position: absolute;
+    border-bottom: solid;
+    background-color:#D6E5F0;
+    top:-10px;
+    display: inline-block;
+    height: 70px;
+
+}
+
+.name{
+    background-color: white;
+    line-height: 70px;
+    font-size: 30px;
+    width: 200px;
+    margin-left:220px;
+    text-align: center;
+
+    display: inline-block;
+}
+
+
+.hlinks{
+    float: right;
+    font-size: 20px;
+    line-height: 80px;
+    margin-right: 240px;
+    padding-top: 10px;
+}
+
+
+
+.heading{
+    border-bottom: solid;
+    border-bottom-color:#D6E5F0;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+
+#aboutme-img{
+    width: 25%;
+    float: left;
+    margin:20px;
+}
+p{
+    font-size: 16px;
+    margin:20px;
+}
+.footer{
+    background-color:#D6E5F0;
+    border-top: solid;
+    height:40px;
+    font-size:0px;
+    text-align:center;
+    line-height: 20px;
+    position:fixed;
+    bottom:0px;
+    width:100%
+}
+
+#message{
+    height:150px;
+}
+
+.button{
+    height:30px;
+    font-size: 15px;
+    margin: 15px;
+
+}
+
+.portfolio1{
+    position: relative;
+    top:0px;
+    left:0px;
+    z-index: 1;
+   
+}
+.portfolio2{
+    position: relative;
+    top:0px;
+    left:0px;
+   
+}
+
+.portfolio3{
+    position: relative;
+    top:0px;
+    left:0px;
+}
+
+.hangman{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:30px;
+    z-index: 2;
+    width:200px;
+    left:20px;
+    text-align: center;
+}
+.rpggame{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:30px;
+    z-index: 2;
+    width:200px;
+    left:263px;
+    text-align: center;
+}
+.triviagame{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:30px;
+    z-index: 2;
+    width:200px;
+    left:20px;
+    text-align: center;
+}
+.rutgers{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:30px;
+    z-index: 2;
+    width:200px;
+    left:263px;
+    text-align: center;
+}
+
+.rockpaperscissors{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:30px;
+    z-index: 2;
+    width:200px;
+    left:20px;
+    text-align: center;
+}
+.puppy{
+    margin:20px;
+
+}
+
+.colors{
+    margin:20px; 
+    
+}
+.water{
+    margin:20px;
+}
+.fashion{
+    margin:20px;
+    
+}
+
+.nightlife{
+margin:20px;
+
+}
