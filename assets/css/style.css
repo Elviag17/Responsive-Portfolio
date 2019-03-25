@@ -8,8 +8,10 @@
         overflow:auto;
         margin-top:100px;
         padding:20px;
-}
-.header{
+        margin-bottom:100px;
+   }
+
+header{
     width: 100%;
     position: absolute;
     border-bottom: solid;
@@ -17,6 +19,7 @@
     top:-10px;
     display: inline-block;
     height: 70px;
+    overflow: hidden;
 
 }
 
@@ -40,7 +43,9 @@
     padding-top: 10px;
 }
 
-
+a{
+    text-decoration: none;
+    }
 
 .heading{
     border-bottom: solid;
@@ -57,24 +62,30 @@
     float: left;
     margin:20px;
 }
+
 p{
     font-size: 16px;
     margin:20px;
 }
-.footer{
+footer{
     background-color:#D6E5F0;
     border-top: solid;
     height:40px;
-    font-size:0px;
+    font-size:15px;
     text-align:center;
-    line-height: 20px;
+    line-height: 5px;
     position:fixed;
     bottom:0px;
-    width:100%
+    width:100%;
+    z-index:2;
 }
 
 #message{
     height:150px;
+}
+.input{
+    height:15px;
+    width:100%;
 }
 
 .button{
@@ -102,15 +113,23 @@ p{
     position: relative;
     top:0px;
     left:0px;
+
+
+}
+
+.img{
+    width:40%;
+    height:250px;
+    margin:20px;
 }
 
 .hangman{
-    background-color: lightblue;
+    background-color: #add8e6;
     height:30px;
     position:absolute;
-    bottom:30px;
+    bottom:-250px;
     z-index: 2;
-    width:200px;
+    width:40%;
     left:20px;
     text-align: center;
 }
@@ -118,19 +137,19 @@ p{
     background-color: lightblue;
     height:30px;
     position:absolute;
-    bottom:30px;
+    bottom:40px;
     z-index: 2;
-    width:200px;
-    left:263px;
+    width:40%;
+    left: 47%;
     text-align: center;
 }
 .triviagame{
     background-color: lightblue;
     height:30px;
     position:absolute;
-    bottom:30px;
+    bottom:330px;
     z-index: 2;
-    width:200px;
+    width:40%;
     left:20px;
     text-align: center;
 }
@@ -138,41 +157,277 @@ p{
     background-color: lightblue;
     height:30px;
     position:absolute;
-    bottom:30px;
+    bottom:40px;
     z-index: 2;
-    width:200px;
-    left:263px;
+    width:40%;
+    left:47%;
     text-align: center;
 }
-
 .rockpaperscissors{
     background-color: lightblue;
     height:30px;
     position:absolute;
-    bottom:30px;
+    bottom:40px;
     z-index: 2;
-    width:200px;
+    width:40%;
     left:20px;
     text-align: center;
 }
-.puppy{
+
+
+/* Media Queries */
+
+
+@media only screen and (min-width: 0px) and (max-width: 640px) {
+
+    header{
+        width: 100%;
+        position: static;
+        border-bottom: solid;
+        background-color:#D6E5F0;
+        height: 120px;
+        margin:0px;
+        overflow: hidden;
+    }
+
+    .name{
+        float: right;
+        align-content: center;
+        background-color: white;
+        line-height: 70px;
+        font-size: 30px;
+        width:100%;
+        text-align: center;
+    }
+
+    .hlinks{
+        align-content: center;
+        float:left;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .container {
+        background-color: white;
+           height: auto;
+           font-family: 'Georgia', Times, Times, serif;
+           width: 93%;
+           border: solid;
+           margin-top:100px;
+           overflow: hidden;
+           margin-bottom:100px;
+   }
+
+   .heading{
+    border-bottom: solid;
+    border-bottom-color:#D6E5F0;
+    width: 100%;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#aboutme-img{
+    width: 90%;
     margin:20px;
+}
+
+.hangman{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:330px;
+    z-index: 2;
+    width:90%;
+    left:20px;
+    text-align: center;
+}
+.rpggame{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:40px;
+    z-index: 2;
+    width:90%;
+    left: 20px;
+    text-align: center;
+}
+.triviagame{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:330px;
+    z-index: 2;
+    width:90%;
+    left:20px;
+    text-align: center;
+}
+.rutgers{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:40px;
+    z-index: 2;
+    width:90%;
+    left:20px;
+    text-align: center;
+}
+.rockpaperscissors{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:40px;
+    z-index: 2;
+    width:90%;
+    left:20px;
+    text-align: center;
+}
+.img{
+    width:90%;
+    height:250px;
+    margin:20px;
+}
+
 
 }
 
-.colors{
-    margin:20px; 
+ @media only screen and (min-width: 641px) and (max-width: 768px) {
+    header{
+        width: 100%;
+        display:inline-block;
+        border-bottom: solid;
+        background-color:#D6E5F0;
+        height: 70px;
+        margin:0px;
+    }
+
+    .name{
+        background-color: white;
+        line-height: 70px;
+        margin-left:40px;
+        font-size: 25px;
+        display: inline-block;
+    }
+    .hlinks{
+        font-size: 20px;
+        display: inline-block;
+        margin-right:40px;
+
+    }
+    .container {
+        background-color: white;
+        height: auto;
+        font-family: 'Georgia', Times, Times, serif;
+        width: 93%;
+        border: solid;
+        margin-top:100px;
+        margin-bottom:100px;
+   }
+   
+   .img{
+    width:40%;
+    height:250px;
+    margin:20px;
+}
+
+.hangman{
+    background-color: #add8e6;
+    height:30px;
+    position:absolute;
+    bottom:-250px;
+    z-index: 2;
+    width:40%;
+    left:20px;
+    text-align: center;
+}
+.rpggame{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:40px;
+    z-index: 2;
+    width:40%;
+    left: 49%;
+    text-align: center;
+}
+.triviagame{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:330px;
+    z-index: 2;
+    width:40%;
+    left:20px;
+    text-align: center;
+}
+.rutgers{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:40px;
+    z-index: 2;
+    width:40%;
+    left:49%;
+    text-align: center;
+}
+.rockpaperscissors{
+    background-color: lightblue;
+    height:30px;
+    position:absolute;
+    bottom:40px;
+    z-index: 2;
+    width:40%;
+    left:20px;
+    text-align: center;
+}
+ 
+
+
+}         
+
+
+
+@media only screen and (min-width: 769px) and (max-width: 980px){
+
+.container {
+        background-color: white;
+           height: auto;
+           font-family: 'Georgia', Times, Times, serif;
+           width: 93%;
+           border: solid;
+           margin: auto;
+           overflow:auto;
+           margin-top:100px;
+           padding:20px;
+           margin-bottom:100px;
+   }
+   
+
+header{
+    width: 100%;
+    display:inline-block;
+    border-bottom: solid;
+    background-color:#D6E5F0;
+    height: 70px;
+    margin:0px;
+}
+
+.name{
+    background-color: white;
+    line-height: 70px;
+    margin-left:40px;
+    font-size: 25px;
+    display: inline-block;
+}
+
+
+.hlinks{
+    font-size: 20px;
+    display: inline-block;
+    margin-right:40px;
     
 }
-.water{
-    margin:20px;
-}
-.fashion{
-    margin:20px;
-    
-}
 
-.nightlife{
-margin:20px;
 
 }
